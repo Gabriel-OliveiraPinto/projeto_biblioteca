@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Biblioteca</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-biblioteca" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a biblioteca
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#generos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Gêneros
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-biblioteca">
+            <div class="carousel slide"  data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/library1.jpg" alt="Biblioteca 1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/library2.jpg"  alt="Biblioteca 2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/library3.jpg" alt="Biblioteca 3">
+                    </div>
+                </div>
+                <div class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </div>
+                <div class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/library.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a biblioteca</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corrupti esse delectus quidem officiis repudiandae soluta natus dolores porro rem quam quia doloribus fugit, facilis ullam. Reiciendis aliquid minima voluptatum?
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, laborum. Praesentium non iste labore sunt a fugiat doloribus qui minima animi laboriosam, dolore ut iure sit deleniti, est ipsam laborum.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/promocoes.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Promoções
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, aliquid error deleniti alias quam obcaecati, reiciendis veniam doloremque iusto voluptatibus accusantium odio tempore tenetur ipsa corporis aperiam ratione, possimus repudiandae.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/clube.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Clube do Livro
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, aliquid error deleniti alias quam obcaecati, reiciendis veniam doloremque iusto voluptatibus accusantium odio tempore tenetur ipsa corporis aperiam ratione, possimus repudiandae.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/autor.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Visita de autora famosa
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, aliquid error deleniti alias quam obcaecati, reiciendis veniam doloremque iusto voluptatibus accusantium odio tempore tenetur ipsa corporis aperiam ratione, possimus repudiandae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="generos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">livros</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-generos">
+                            <button  type="button" data-bs-toggle="tab" data-bs-target="#fantasia" class=" fw-bold text-start nav-link text-colored active">Fantasia</button>
+                            <button  type="button" data-bs-toggle="tab" data-bs-target="#ficcaocientifica" class=" fw-bold text-start nav-link text-colored">Ficção Científica</button>
+                            <button  type="button" data-bs-toggle="tab" data-bs-target="#romance" class=" fw-bold text-start nav-link text-colored">Romance</button>
+                            <button  type="button" data-bs-toggle="tab" data-bs-target="#horror" class=" fw-bold text-start nav-link text-colored">Horror</button>
+                            <button  type="button" data-bs-toggle="tab" data-bs-target="#graphicnovels" class=" fw-bold text-start nav-link text-colored">Graphic Novel</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="fantasia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/fantasia/SdA.jpg" alt="Coca-Cola">
+                                        <h5 class="text-colored mt-2">Senhor dos Anéis</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/fantasia/HP.jpg" alt="Suco">
+                                        <h5 class="text-colored mt-2">Harry Potter</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/fantasia/Witcher.jpg" alt="Coca-Cola">
+                                        <h5 class="text-colored mt-2">The Witcher</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ficcaocientifica">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/ficcao cientifica/Duna.jpg" alt="Cerveja">
+                                        <h5 class="text-colored mt-2">Duna</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/ficcao cientifica/Robo.jpg" alt="Vinho">
+                                        <h5 class="text-colored mt-2">Eu, Robô</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p> 
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/ficcao cientifica/Admiravel.jpg" alt="Cerveja">
+                                        <h5 class="text-colored mt-2">Admirável Mundo Novo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="romance">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/romance/Orgulho.jpg" alt="Nome da entrada">
+                                        <h5 class="text-colored mt-2">Orgulho e Preconceito</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/romance/Madame.jpg" alt="Nome da entrada">
+                                        <h5 class="text-colored mt-2">Madame Bouvary</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/romance/Romeu.jpg" alt="Nome da entrada">
+                                        <h5 class="text-colored mt-2">Romeu e Julieta</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="horror">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/horror/It.jpg" alt="Pizza">
+                                        <h5 class="text-colored mt-2">It - A Coisa</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/horror/Cthulhu.jpg" alt="Salmão">
+                                        <h5 class="text-colored mt-2">O Chamado de Cthulhu</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/horror/Frankenstein.jpg" alt="Pizza">
+                                        <h5 class="text-colored mt-2">Frankenstein</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="graphicnovels">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/graphic novels/Watchmen.jpg" alt="Bolo">
+                                        <h5 class="text-colored mt-2">Watchmen</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/graphic novels/O Cavaleiro das Trevas.jpg" alt="Cupcake">
+                                        <h5 class="text-colored mt-2">O Cavaleiro das Trevas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/generos/graphic novels/Sandman.jpg" alt="Bolo">
+                                        <h5 class="text-colored mt-2">Sandman</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-3">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill "></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo n 145, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
